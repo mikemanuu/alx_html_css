@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+
+</head>
+
+<body>
+    <form>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required /><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" /><br>
+
+        <h4>Feedback</h4>
+        <label for="excellent">Excellent</label>
+        <input type="checkbox" id="excellent" name="checkbox1"><br><br>
+
+        <label for="good">Good</label>
+        <input type="checkbox" id="good" name="checkbox2"><br><br>
+
+        <label for="average">Average</label>
+        <input type="checkbox" id="average" name="checkbox3"><br><br>
+
+        <label for="poor">Poor</label>
+        <input type="checkbox" id="poor" name="checkbox4"><br><br>
+
+        <h4>Upload file</h4>
+        <input type="file" name="document">
+
+
+    </form>
+</body>
+
+</html>
